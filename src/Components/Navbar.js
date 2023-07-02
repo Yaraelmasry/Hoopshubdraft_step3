@@ -15,14 +15,13 @@ class Navbar extends Component {
           <div  className="HoopsHub"><h3> HoopsHub</h3>
           
           </div>
-          <a href="/index">     
+          <a href="./">     
           </a>
 
           <div>
             <ul
               id="navbar"
-              className={this.state.clicked ? "#navbar active" : "#navbar"}
-            >
+              className={this.state.clicked ? "#navbar active" : "#navbar"}>
               <li>
                 <a className="active" href="./">
                   Home
